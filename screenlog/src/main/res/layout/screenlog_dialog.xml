@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/module_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="32dp"
+    android:layout_marginVertical="64dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tvTItle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="DeveloperKurt - ScreenLogger"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#000"
+            android:textSize="22sp"
+            />
+
+
+        <Switch
+            android:id="@+id/filter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Filter"
+            android:layout_gravity="right"
+            />
+
+
+        <TextView
+            android:id="@+id/tvLogs"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/dialog_background"
+            android:fontFamily="@font/anonymous_pro"
+            android:paddingHorizontal="16dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
