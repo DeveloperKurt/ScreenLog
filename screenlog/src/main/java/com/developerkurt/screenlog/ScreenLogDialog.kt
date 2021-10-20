@@ -55,12 +55,12 @@ class ScreenLogDialog internal constructor(
                     filteredText += "\n\n $logMessage"
                 }
 
-                logsTv.text = if (filterSwitch.isChecked) {
+            }
+             logsTv.text = if (filterSwitch.isChecked) {
                     filteredText
                 } else {
                     unfilteredText
                 }
-            }
         })
 
         filterSwitch.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { buttonView, isChecked ->
